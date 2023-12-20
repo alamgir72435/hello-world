@@ -6,7 +6,7 @@ const app = express();
 
 // Define a route
 app.get('/', (req, res) => {
-  res.send('Hello, Express!');
+  res.send('<h1>Hello, Express! Kubernetes is awesome!</h1>');
 });
 
 // Define another route
