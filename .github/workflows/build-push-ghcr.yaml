@@ -28,5 +28,5 @@ jobs:
 
           - name: 'Build Inventory Image'
             run: |
-              docker build . --tag ghcr.io/alamgir72435/hello-world:latest
-              docker push ghcr.io/alamgir72435/hello-world:latest
+              docker build . --tag ghcr.io/${{github.actor}}/hello-world:latest
+              docker push ghcr.io/${{github.actor}}/hello-world:latest
